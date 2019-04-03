@@ -1,0 +1,40 @@
+{
+"html": {
+	"prefix": "html",
+	"body": [
+		"<!DOCTYPE html>",
+		"<html lang=\"en\">",
+		"\t<head>",
+		"\t",
+		"\t<meta charset=\"utf-8\" />",
+		"\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+		"\t<title>${1:Page Title}</title>",
+		"\t<meta name=\"description\" content=\"${2:description}\">",
+		"\t<meta name=\"author\" content=\"${3:author}\">",
+		"\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">",
+		"\t",
+		"\t<link rel=\"stylesheet\" href=\"css/float-grid.css?v=1.0\">",
+		"\t<link rel=\"stylesheet\" type=\"text/css\" media=\"screen\" href=\"css/squiggle.css\" />",
+		"\t<link href=\"https://fonts.googleapis.com/css?family=Habibi|Montserrat\" rel=\"stylesheet\">",
+		"\t",
+		"\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>",
+		"\n\t",
+		"\t\t<!--[if lt IE 9]>",
+		"\t\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js\"></script>",
+		"\t\t\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js\"></script>",
+		"\t\t<![endif]-->",
+		"\t</head>",
+		"\t",
+		"\t<body>",
+		"\t\t<header></header>",
+		"\t\t<main>",
+		"\t\t\t${0}",
+		"\t\t</main>",
+		"\t\t<footer></footer>",
+		"\t\t<!-- <script src=\"js/app.js\"></script> -->",
+		"\t</body>",
+		"</html>"
+	],
+	"description": "RC's html Snippet for VS Code"
+  }
+}

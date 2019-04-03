@@ -1,0 +1,98 @@
+{
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 3000,
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "workbench.colorTheme": "Gruvbox Minor Dark Medium",
+  "editor.snippetSuggestions": "top",
+  "workbench.colorCustomizations": {
+    "tab.inactiveForeground": "#fcbe0b",
+    "tab.activeBackground": "#1d9ac9",
+    "tab.activeForeground": "#282828",
+    "panel.border": "#fcbe0b",
+    "sideBar.border": "#fcbe0b",
+    "editorGroup.border": "#fcbe0b",
+    "statusBar.background": "#fcbe0b",
+    "statusBar.foreground": "#3a3838",
+    "editorLineNumber.foreground": "#1d9ac9"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#c49696"
+  },
+  "editor.suggestOnTriggerCharacters": true,
+
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+
+  "TodoParser": {
+    "exclude": ["cpp", "c"],
+    "include": ["js", "html", "css"],
+    "folderExclude": ["node_modules", ".vscode"],
+    "only": ["sub-folder/sub-sub-folder"],
+    "showInProblems": true,
+    "markers": [
+      ["TODO:", "Warning"],
+      ["TODO", "Warning"],
+      ["NOTES:", "Information"],
+      ["REMINDER:", "Information"],
+      ["FIXME", "Error"]
+    ],
+    "autoDefaultMarkers": true
+  },
+
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.wordWrap": "on", //"wordWrapColumn",
+  "editor.fontFamily": "Dank Mono, Fira Mono, Menlo, Monaco, 'Courier New', monospace",
+  "window.zoomLevel": 0,
+  "files.trimTrailingWhitespace": true,
+  "editor.accessibilitySupport": "off",
+  "window.clickThroughInactive": false,
+  "sync.askGistName": true,
+  "sync.gist": "b2e7179ab190fdb0949ced1127bb61a8",
+
+  "sync.quietSync": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+
+  "sync.forceDownload": false,
+  "terminal.external.osxExec": "iTerm.app",
+  "explorer.confirmDelete": false,
+
+  "material-icon-theme.hidesExplorerArrows": false,
+  "prettier.singleQuote": true,
+  "scss.lint.float": "warning",
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "explorer.confirmDragAndDrop": false,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.optimizeStylesheetParsing": false,
+
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/web/node_modules": true,
+    "**/web/build": true, // will change frequently by build command
+    "**/admin/node_modules": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.view.alwaysShowHeaderActions": true,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14
+}

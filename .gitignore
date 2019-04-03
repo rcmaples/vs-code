@@ -1,0 +1,19 @@
+# OS Files
+*.swp
+*~
+._*
+.DS_Store
+*.ipr
+*.iml
+*.iws
+.idea/
+.vscode/
+
+# Build directory
+lib
+
+# Node modules
+node_modules
+
+# NPM
+npm-debug.log
