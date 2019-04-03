@@ -7,18 +7,21 @@ Visit https://code.visualstudio.com/ and download Studio.
 ## Configuring VS Code:
 
 ### Portable Mode
+
 I use VS Code's [Portable Mode](https://code.visualstudio.com/docs/editor/portable) which allows me to store all of my editor settings in an easy to find place. All I have to do is drop a folder named `code-portable-data` in the same directory as the `Visual Studio Code.app` file. The instructions from Microsoft are fairly straightforward.
 
 ### Custom Snippets
+
 I created several custom snippets to increase my efficiency. These can be found at:
 
-- [html snippets](./config/snippets/html.json)
-- [javascript snippets](./config/snippets/javascript.json)
+- [html snippets](./configs/snippets/html.json)
+- [javascript snippets](./configs/snippets/javascript.json)
 
 There aren't any overly useful snippets for our current goals, but these should provide an example of how you can create custom snippets that enhance your own workflow.
 
 ### Custom Config
-My custom config settings are available [as well](./config/settings.json). This details any "user" settings I've modified in VS Code such as colors, fonts, rules for _TODO Parser_ and several others. Feel free to use this as a reference on things that might be useful to you. 
+
+My custom config settings are available [as well](./config/settings.json). This details any "user" settings I've modified in VS Code such as colors, fonts, rules for _TODO Parser_ and several others. Feel free to use this as a reference on things that might be useful to you.
 
 ## Productivity Extensions 🤓
 
